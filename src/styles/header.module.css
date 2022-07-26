@@ -1,0 +1,10 @@
+.header {
+	background-color: rgb(90, 159, 172);
+}
+
+.header_menu{
+	display: flex;
+	padding: 0;
+	justify-content: space-between;
+	align-self: center;
+}

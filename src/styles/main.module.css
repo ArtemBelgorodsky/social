@@ -1,0 +1,11 @@
+.avatar {
+	background-size: cover;
+	background-image: url("/public/logo512.png");
+	height: 200px;
+}
+
+.avatar_text {
+	text-align: center;
+	font-weight: bold;
+
+}
