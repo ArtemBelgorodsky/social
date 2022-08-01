@@ -8,8 +8,7 @@ import {
 import { Menu } from "antd";
 import { Link } from "react-router-dom";
 
-function AntMenu() {
-
+const AntMenu = React.memo(() => {
 	const items = [
 		getItem(<Link to="/main">Моя страница</Link>, "1", <UserOutlined />),
 		getItem(<Link to="/messenges">Мои сообщения</Link>, "2", <MailOutlined />),
@@ -34,6 +33,6 @@ function AntMenu() {
             items={items}
           />			
 	)
-}
+})
 
 export default AntMenu
