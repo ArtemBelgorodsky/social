@@ -3,10 +3,7 @@ import "antd/dist/antd.css";
 import { Row, Col, Image } from "antd";
 import React from "react";
 import css from "../styles/main.module.css"
-
-
-
-
+import MainPosts from "../components/MainPosts";
 
 const Main = () => {
   
@@ -27,6 +24,9 @@ const Main = () => {
     <Row>
       <Col span={5}
 			className={css.avatar_text}>Анита Цой</Col>
+    </Row>
+		<Row>
+      <Col span={12}><MainPosts /></Col>
     </Row>
 		</>
 	)
